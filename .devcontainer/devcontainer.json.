@@ -1,9 +1,7 @@
 {
   "name": "IIC-OSIC-TOOLS Environment",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
-  },
+  "image": "hpretl/iic-osic-tools:latest",
+  "overrideCommand": false,
   "forwardPorts": [6080],
   "portsAttributes": {
     "6080": {
